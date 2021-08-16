@@ -30,12 +30,12 @@ const Banner: React.FC<Props> = () => {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+            <Link to='/playerStats' className="nav-links" onClick={closeMobileMenu}>
               Player Stats
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+            <Link to='/nbaNews' className="nav-links" onClick={closeMobileMenu}>
               News
             </Link>
           </li>
